@@ -18,3 +18,7 @@
 	<footer>@DanilFarkhutdinov </footer>
 	</body>
 </html>
+
+Файл menu(другой файл)
+index.cgi Проверка правильности расстановки скобок
+second.cgi Вторая страница сайта
