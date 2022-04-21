@@ -1,0 +1,4 @@
+Vasya M 19 Kamaz 50000 Kredit
+Petya M 18 It 90000 Vklad
+Anna W 21 KFC 30000 Vklad
+Maria W 20 Accounting 65000 Kredit
