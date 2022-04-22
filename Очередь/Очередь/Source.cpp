@@ -7,6 +7,7 @@ using namespace std;
 void enqueue(queue*& q, string n, string g, int a, string w, int s, string p);
 void Show(queue*& q, string filename);
 bool dequeue(queue*& q, man& human);
+void clear(queue*& q);
 void reading_file(queue*&kredit, queue*& vklad) {
 	fstream fin("input.txt");
 	if (fin.is_open()) {
@@ -31,7 +32,7 @@ void reading_file(queue*&kredit, queue*& vklad) {
 		fin.close();
 	}
 	else {
-		cout << "Ôàéë íå îòêðûò!";
+		cout << "Ã”Ã Ã©Ã« Ã­Ã¥ Ã®Ã²ÃªÃ°Ã»Ã²!";
 	}
 }
 int main() {
@@ -40,7 +41,9 @@ int main() {
 	queue* kredit = new queue;
 	queue* vklad = new queue;
 	reading_file(kredit, vklad);
-	Show(kredit, "Êðåäèò.txt");
-	Show(vklad, "Âêëàä.txt");
+	Show(kredit, "ÃŠÃ°Ã¥Ã¤Ã¨Ã².txt");
+	Show(vklad, "Ã‚ÃªÃ«Ã Ã¤.txt");
+	clear(kredit);
+	clear(vklad);
 	return 0;
 }
