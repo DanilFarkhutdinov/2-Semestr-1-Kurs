@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Моя первая веб-страница</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+<body>
+<header> 
+		<h1 align="center">Мой сайт </h1> 
+	</header>
+	<aside> 
+			<p><a href=""><font color="white">Задача 1</font></a></p>
+			<p><a href=""><font color="white">Задача 2</font></a></p>
+			<p><a href=""><font color="white">Задача 3</font></a></p>
+		</aside>
+<!--Coment-->
+	<footer>@DanilFarkhutdinov </footer>
+	</body>
+</html>

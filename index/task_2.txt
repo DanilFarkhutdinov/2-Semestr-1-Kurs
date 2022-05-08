@@ -1,0 +1,8 @@
+<h2>
+<form  method = 'get'>
+<p>
+<font color = 'white'>Прикрепите файл: <input type = 'file' name = 'queue' accept = '*/txt'>
+<button type = 'submit' value = 'task_2' name = 'content'>Отправить</button>
+</p>
+</form>
+</h2>

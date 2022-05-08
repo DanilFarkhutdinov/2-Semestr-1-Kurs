@@ -1,0 +1,8 @@
+<h2>
+<form method  = 'get'>
+<p>
+<font color = 'white'><input placeholder = 'Введите выражение' name = 'exp'>
+<button type = 'submit' value = 'task_1' name = 'content'>Отправить</button>
+</p>
+</form>
+</h2>

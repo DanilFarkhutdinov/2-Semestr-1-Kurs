@@ -1,0 +1,7 @@
+<form  method = 'get'>
+<p>
+<font color = 'white'><input placeholder = 'Введите слово' name = 'list'>
+<button type = 'submit' value = 'task_3' name = 'content'>Отправить</button>
+</p>
+</form>
+</h2>
